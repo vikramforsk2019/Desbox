@@ -1,0 +1,2 @@
+
+select classcreate.cid,classcreate.cname,classcreate.subject,classcreate.classcode,classcreate.classpic,classcreate.color,profile.name,profile.pic from classcreate inner join profile on profile.email=classcreate.email and classcode=;
